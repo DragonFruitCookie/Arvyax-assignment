@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'http://localhost:5001';
 
 // Adding some basic error handling and logging to ensure 
 // API calls are working correctly

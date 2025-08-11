@@ -8,7 +8,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/wellness';
 
