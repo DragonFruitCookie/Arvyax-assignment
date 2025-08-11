@@ -44,7 +44,7 @@ npm install
 
 Create a `.env` file in the backend directory:
 ```bash
-PORT=5001
+PORT=5000
 JWT_SECRET=your-super-secret-jwt-key-here
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/wellness-platform
 ```
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-The frontend will run on `http://localhost:3000` and backend on `http://localhost:5001`.
+The frontend will run on `http://localhost:3000` and backend on `http://localhost:5000`.
 
 ## 📡 API Routes
 
@@ -133,7 +133,7 @@ The frontend will run on `http://localhost:3000` and backend on `http://localhos
 ## 🌐 Environment Variables
 
 Required environment variables (see `.env.example`):
-- `PORT` - Server port (default: 5001)
+- `PORT` - Server port (default: 5000)
 - `JWT_SECRET` - Secret key for JWT signing
 - `MONGODB_URI` - MongoDB Atlas connection string
 
